@@ -1,3 +1,5 @@
+import "./HeaderTop.css";
+
 export const HeaderTop = () => {
   return (
     <>

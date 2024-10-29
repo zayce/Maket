@@ -1,0 +1,34 @@
+.HeaderT {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Header-Adress {
+  font-weight: 700;
+}
+
+.Adress {
+  font-weight: 400;
+  color: grey;
+  margin-left: 8px;
+}
+.Header-mail {
+  font-weight: 700;
+}
+
+.mail {
+  font-weight: 400;
+  color: grey;
+  margin-left: 8px;
+}
+
+.Header-Number {
+  font-weight: 700;
+}
+
+.Nubmer {
+  font-weight: 400;
+  color: grey;
+  margin-left: 8px;
+}

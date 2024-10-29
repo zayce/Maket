@@ -1,0 +1,71 @@
+.Bottom-Header {
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.Bottom-Desc {
+  display: flex;
+}
+
+.Bottom-Title {
+  margin-right: 180px;
+}
+.Title {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.5px;
+  text-align: center;
+  color: #013878;
+}
+.Name {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 15.23px;
+  text-align: left;
+  color: rgba(130, 130, 130, 1);
+}
+
+.Bottom-Menu-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 60px;
+}
+
+.Bottom-Menu-item {
+  align-self: center;
+  font-size: 19px;
+  font-weight: 300;
+  color: rgba(130, 130, 130, 1);
+
+  &:hover {
+    color: #013878;
+  }
+}
+
+.Bottom-Button {
+  width: 182px;
+  height: 48px;
+  padding: 12px 24px 12px 24px;
+  border: none;
+  background-color: rgb(255, 148, 102);
+  transition: background-color 0.6s ease;
+
+  &:hover {
+    background-color: rgb(255, 79, 3);
+  }
+}
+
+.Button-desc {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+}
