@@ -1,0 +1,50 @@
+.Desc {
+  margin-top: 30px;
+
+  padding: 20px 0;
+}
+.Desc-Title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 50px;
+}
+
+.Descs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Desc-block {
+  width: 269px;
+  transition: transform 0.3s ease;
+}
+
+.Desc-block:hover {
+  transform: scale(1.05);
+}
+
+.Desc-img {
+  text-align: center;
+}
+
+.Desc-Name {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: center;
+}
